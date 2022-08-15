@@ -1,0 +1,19 @@
+.container-card {
+    padding-top: 70px;
+    padding-left: 12%;
+    display: flex;
+    font-size: 1.2em;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.firstItem {
+    text-align: center;
+}
+
+.secondItem {
+    align-content: center;
+    padding-left: 20px;
+    text-align: start;
+}

@@ -1,0 +1,38 @@
+.brand-color {
+    color: rgb(245, 248, 251);
+}
+
+.navbar-brand {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.logo-home:hover {
+    cursor: pointer;
+}
+
+.linkss:hover {
+    color: rgb(96, 131, 235);
+}
+
+.search-width {
+    width: 30%;
+    display: flex;
+}
+
+.space-search {
+    padding-right: 15px;
+}
+
+.collapse-color {
+    background-color: aliceblue;
+}
+
+.nav-width {
+    color: rgb(245, 248, 251);
+    display: inline-flex;
+    justify-content: center;
+    width: 75%;
+    font-weight: 500;
+    font-size: 1.5em;
+}

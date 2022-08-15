@@ -1,0 +1,9 @@
+.container-F {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-home {
+    align-self: flex-start;
+    align-content: flex-start;
+}

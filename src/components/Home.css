@@ -1,0 +1,41 @@
+.tag-line {
+    padding-top: 80px;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.dividerH {
+    text-align: start;
+    padding-left: 12%;
+}
+
+.brandd {
+    color: rgb(167, 172, 247);
+}
+
+.img-tran {
+    transition: .2s;
+}
+
+.img-tran:hover {
+    transform: scale(1.1);
+}
+
+.brandd:hover {
+    cursor: pointer;
+}
+
+.second-line {
+    font-size: 1.2em;
+}
+
+.text-size {
+    font-size: 1.3em;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+    height: 5px;
+    background: white;
+}

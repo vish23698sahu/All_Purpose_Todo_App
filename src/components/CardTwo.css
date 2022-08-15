@@ -1,0 +1,23 @@
+.container {
+    text-align: start;
+    padding-top: 70px;
+    display: flex;
+    font-size: 1.2em;
+    align-items: center;
+    align-content: space-between;
+}
+
+.para-1 {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.item-one {
+    padding-left: 60px;
+    padding-right: 10px;
+}
+
+.item-two {
+    padding-right: 60px;
+    padding-left: 10px;
+}
