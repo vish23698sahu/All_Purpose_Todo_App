@@ -1,6 +1,7 @@
 .container {
     text-align: start;
     padding-top: 70px;
+    padding-bottom: 4%;
     display: flex;
     font-size: 1.2em;
     align-items: center;

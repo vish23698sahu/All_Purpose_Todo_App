@@ -1,9 +1,19 @@
 .container-F {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 2%;
 }
 
 .logo-home {
     align-self: flex-start;
     align-content: flex-start;
+}
+
+.space-item {
+    padding-bottom: 10px;
+    color: rgb(177, 203, 241);
+}
+
+.space-item:hover {
+    cursor: pointer;
 }

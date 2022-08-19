@@ -7,12 +7,17 @@
     font-weight: 500;
 }
 
+.logo-home {
+    padding-top: 15px;
+}
+
 .logo-home:hover {
     cursor: pointer;
 }
 
 .linkss:hover {
     color: rgb(96, 131, 235);
+    cursor: pointer;
 }
 
 .search-width {

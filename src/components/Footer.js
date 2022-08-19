@@ -2,38 +2,39 @@ import { Fragment } from "react";
 import './Footer.css';
 import Logo from '../media/TodoLogo.png';
 
-const Footer = () => {
+const Footer = (props) => {
     return (
         <Fragment>
             <div className="container-F">
                 <div>
-                    <img className="logo-home" src={Logo} width="50px" height="40px" ></img>&nbsp;<a className="navbar-brand brand-color linkss" href="#">Do.It</a><br />
+                    <img src={Logo} className="logo-home" onClick={props.onHomeClick} width="50px" height="40px" ></img>&nbsp;
+                    <a className="navbar-brand brand-color linkss" onClick={props.onHomeClick} >Do.It</a><br />
                     Join millions of people who organize their work effectively with Do.It
                 </div>
                 <div>
-                    <div>Features</div>
-                    <div>How It Works</div>
-                    <div>For Teams</div>
-                    <div>Pricing</div>
-                    <div>Templates</div>
+                    <div className="space-item"><a onClick={props.onFeatureClick} >Features</a></div>
+                    <div className="space-item"><a>How It Works</a></div>
+                    <div className="space-item"><a>For Teams</a></div>
+                    <div className="space-item"><a>Pricing</a></div>
+                    <div className="space-item"><a>Templates</a></div>
                 </div>
                 <div>
-                    <div>Resources</div>
-                    <div>Productivity Methods</div>
-                    <div>Refer a Friend</div>
-                    <div>Integratins</div>
-                    <div>Partners</div>
-                    <div>Help Center</div>
+                    <div className="space-item"><a>Resources</a></div>
+                    <div className="space-item"><a>Productivity Methods</a></div>
+                    <div className="space-item"><a>Refer a Friend</a></div>
+                    <div className="space-item"><a>Integratins</a></div>
+                    <div className="space-item"><a>Partners</a></div>
+                    <div className="space-item"><a>Help Center</a></div>
                 </div>
                 <div>
-                    <div>Company</div>
-                    <div>About US</div>
-                    <div>We are Hiring!</div>
-                    <div>Blog</div>
-                    <div>Press</div>
+                    <div className="space-item"><a>Company</a></div>
+                    <div className="space-item"><a>About US</a></div>
+                    <div className="space-item"><a>We are Hiring!</a></div>
+                    <div className="space-item"><a>Blog</a></div>
+                    <div className="space-item"><a>Press</a></div>
                 </div>
             </div>
-        </Fragment>
+        </Fragment >
     );
 };
 
