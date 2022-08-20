@@ -1,11 +1,9 @@
 import { Fragment } from "react";
 import featureOne from '../media/feature-1.png';
-
 import featureTwo from '../media/feature-productivity-2.png';
 import featureThree from '../media/feature-document-3.png';
 import featureFour from '../media/feature-4.png';
 import './Features.css';
-import Footer from "./Footer";
 
 const Features = (props) => {
     return (

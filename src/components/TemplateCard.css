@@ -1,0 +1,17 @@
+.temp-card-1 {
+    padding-top: 2%;
+    width: 220px;
+    height: 390px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: rgb(161, 207, 248);
+    color: rgb(31, 23, 79);
+}
+
+.temp-card-line {
+    font-weight: 500;
+}
+
+.imgs {
+    padding-top: 10px;
+}

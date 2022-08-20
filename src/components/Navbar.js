@@ -18,10 +18,7 @@ const Navbar = (props) => {
                                 <a className="nav-link brand-color linkss" onClick={props.onClickFeatures} >Features </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link brand-color linkss" href="#">Templates</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link brand-color linkss" href="#">For&nbsp;Teams</a>
+                                <a className="nav-link brand-color linkss" onClick={props.onClickTemplate}>Templates</a>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle brand-color linkss" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -7,15 +7,18 @@ import HomeContentFeature from "./HomeContentFeature";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Features from "./Features";
+import Template from "./Template";
 
 const Home = (props) => {
     const [showFeaturesPage, setShowFeaturesPage] = useState(false);
     const [showHomePage, setShowHomePage] = useState(true);
+    const [showTemplate, setShowTemplate] = useState(false);
 
     const onFeatureClickHandler = () => {
         console.log('Features clicked!');
         setShowFeaturesPage(true);
         setShowHomePage(false);
+        setShowTemplate(false);
     };
 
     const onHomeClickHandler = () => {
@@ -24,10 +27,20 @@ const Home = (props) => {
         setShowHomePage(true);
     }
 
+    const onTemplateClickHandler = () => {
+        console.log('Template clicked!');
+        setShowTemplate(true);
+        setShowHomePage(false);
+        setShowFeaturesPage(false);
+    }
+
     return (
         <Fragment>
-            <Navbar onClickFeatures={onFeatureClickHandler} onClickHome={onHomeClickHandler} />
-
+            <Navbar
+                onClickFeatures={onFeatureClickHandler}
+                onClickHome={onHomeClickHandler}
+                onClickTemplate={onTemplateClickHandler}
+            />
             {showHomePage &&
                 <div>
                     <p className="tag-line">Manage your Work and Life<br /> At Once!</p>
@@ -38,12 +51,14 @@ const Home = (props) => {
                     <hr></hr>
                     <Card />
                     <CardTwo />
-                    <hr></hr><br /><br /><br />
+                    <hr></hr>
                     <HomeContentFeature /><br /><br /><br />
                 </div>}
-            {showFeaturesPage && <Features onClickHome={onHomeClickHandler} />}
 
-            <hr></hr><br /><br />
+            {showFeaturesPage && <Features onClickHome={onHomeClickHandler} />}
+            {showTemplate && <Template />}
+
+            <hr></hr>
             <Footer onFeatureClick={onFeatureClickHandler} onHomeClick={onHomeClickHandler} />
         </Fragment >
     );

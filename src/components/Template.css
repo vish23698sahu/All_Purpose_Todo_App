@@ -1,0 +1,38 @@
+.first-line {
+    padding-top: 5%;
+    font-size: 2.8em;
+    padding-bottom: 3%;
+}
+
+.container-ins-1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+.items-align {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.items-align:hover {
+    transform: scale(1.1);
+}
+
+.items-align {
+    transition: .2s;
+    cursor: pointer;
+}
+
+.temps-container {
+    display: flex;
+    justify-content: center;
+}
+
+.oneItem {
+    padding-right: 6%;
+}
+
+.twoItem {
+    padding-left: 6%;
+}
