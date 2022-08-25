@@ -37,7 +37,7 @@ const Navbar = (props) => {
                         </ul>
                     </div>
                     <div className="my-2 my-lg-0 search-width">
-                        <a className="nav-link brand-color linkss my-2 space-search" href="#">Login</a>
+                        <a className="nav-link brand-color linkss my-2 space-search" onClick={props.onLogin}>Login</a>
                         <button className="btn btn-primary my-2" type="submit">Start&nbsp;for&nbsp;Free</button>
                     </div>
                 </nav>

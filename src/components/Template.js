@@ -2,9 +2,17 @@ import { Fragment } from "react";
 import templateOne from '../media/temp-1.png';
 import templateTwo from '../media/temp-2.png';
 import templateThree from '../media/temp-3.png';
+import templateFour from '../media/temp-4.png';
+import templateFive from '../media/temp-5.png';
+import templateSix from '../media/temp-6.png';
+import templateSeven from '../media/temp-7.png';
+import templateEight from '../media/temp-8.png';
+import templateNine from '../media/temp-9.png';
 import './Template.css';
 
+
 import TemplateCard from "./TemplateCard";
+import TemplateCardTwo from "./TemplateCardTwo";
 
 const Template = () => {
     return (
@@ -37,22 +45,73 @@ const Template = () => {
 
                 <div className="temps-container">
                     <div className="oneItem">
-                        <h4>Search Templates</h4>
+                        <h4 className="search-line" >Search Templates</h4>
                         <input />
                         <h4>Categories</h4>
                         <p>All Templates</p>
 
-                        <p>Sales and Marketting</p>
+                        <p>Sales</p>
+                        <p>Marketing</p>
                         <p>Designing</p>
                         <p>Development</p>
                         <p>Goals and Plans</p>
                         <p>Blogs and Post</p>
+                        <p>Management</p>
                     </div>
                     <div className="twoItem" >
                         <h3>All Templates</h3>
+
+                        <div className="temp-cont-inner">
+                            <div className="items-align-one" >
+                                <TemplateCardTwo
+                                    imgSrc={templateFour}
+                                    heading="Sales"
+                                    cont="Track all your pitch and Clients conveniently"
+                                />
+                            </div>
+                            <div className="items-align-one" >
+                                <TemplateCardTwo
+                                    imgSrc={templateFive}
+                                    heading="Marketing"
+                                    cont="Highlight your add campaigns and let your ideas flow"
+                                />
+                            </div>
+                        </div>
+                        <div className="temp-cont-inner">
+                            <div className="items-align-one" >
+                                <TemplateCardTwo
+                                    imgSrc={templateSix}
+                                    heading="Designing"
+                                    cont="Highlight your add campaigns and let your ideas flow"
+                                />
+                            </div>
+                            <div className="items-align-one" >
+                                <TemplateCardTwo
+                                    imgSrc={templateSeven}
+                                    heading="Development"
+                                    cont="Highlight your add campaigns and let your ideas flow"
+                                />
+                            </div>
+                        </div>
+
+                        <div className="temp-cont-inner">
+                            <div className="items-align-one" >
+                                <TemplateCardTwo
+                                    imgSrc={templateEight}
+                                    heading="Goals"
+                                    cont="Highlight your add campaigns and let your ideas flow"
+                                />
+                            </div>
+                            <div className="items-align-last" >
+                                <TemplateCardTwo
+                                    imgSrc={templateNine}
+                                    heading="Blog, Posts"
+                                    cont="Highlight your add campaigns and let your ideas flow"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </Fragment >
     );

@@ -5,7 +5,7 @@ import featureThree from '../media/feature-document-3.png';
 import featureFour from '../media/feature-4.png';
 import './Features.css';
 
-const Features = (props) => {
+const Features = () => {
     return (
         <Fragment>
             <div className="feature-container" >

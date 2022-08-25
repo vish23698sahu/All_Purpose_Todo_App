@@ -1,0 +1,22 @@
+.cont {
+    height: 900px;
+    justify-content: center;
+    padding-top: 2%;
+    padding-right: 50%;
+}
+
+.logo-1 {
+    padding-bottom: 5%;
+    padding-right: 20%;
+}
+
+.sec-item {
+    padding-left: 36%;
+}
+
+.cont-login {
+    width: 500px;
+    height: 600px;
+    border: 2px solid rgb(163, 163, 244);
+    padding-top: 4%;
+}

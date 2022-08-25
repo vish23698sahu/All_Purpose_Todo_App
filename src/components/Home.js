@@ -16,22 +16,30 @@ const Home = (props) => {
 
     const onFeatureClickHandler = () => {
         console.log('Features clicked!');
-        setShowFeaturesPage(true);
         setShowHomePage(false);
+        setShowFeaturesPage(true);
         setShowTemplate(false);
     };
 
     const onHomeClickHandler = () => {
         console.log('Home clicked!');
-        setShowFeaturesPage(false);
+        console.log('Home:', showHomePage, ' Temp:', showTemplate, ' Feature:', showFeaturesPage);
+        if (showFeaturesPage === true) {
+            setShowFeaturesPage(false);
+        }
+        if (showTemplate === true) {
+            setShowTemplate(false);
+        }
         setShowHomePage(true);
+        showTemplate(false);
+        setShowFeaturesPage(false);
     }
 
     const onTemplateClickHandler = () => {
         console.log('Template clicked!');
-        setShowTemplate(true);
         setShowHomePage(false);
         setShowFeaturesPage(false);
+        setShowTemplate(true);
     }
 
     return (
@@ -40,6 +48,7 @@ const Home = (props) => {
                 onClickFeatures={onFeatureClickHandler}
                 onClickHome={onHomeClickHandler}
                 onClickTemplate={onTemplateClickHandler}
+                onLogin={props.onLoginClick}
             />
             {showHomePage &&
                 <div>
@@ -55,7 +64,7 @@ const Home = (props) => {
                     <HomeContentFeature /><br /><br /><br />
                 </div>}
 
-            {showFeaturesPage && <Features onClickHome={onHomeClickHandler} />}
+            {showFeaturesPage && <Features />}
             {showTemplate && <Template />}
 
             <hr></hr>

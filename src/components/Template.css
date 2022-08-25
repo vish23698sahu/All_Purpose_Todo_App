@@ -24,15 +24,33 @@
     cursor: pointer;
 }
 
+.search-line {
+    padding-top: 30%;
+}
+
 .temps-container {
     display: flex;
     justify-content: center;
 }
 
+.temp-cont-inner {
+    padding-top: 2%;
+    display: flex;
+    padding-bottom: 2%;
+}
+
+.items-align-one {
+    padding-right: 5%;
+}
+
+.items-align-last {
+    padding-bottom: 10%;
+}
+
 .oneItem {
-    padding-right: 6%;
+    padding-right: 2%;
 }
 
 .twoItem {
-    padding-left: 6%;
+    padding-left: 2%;
 }
