@@ -24,3 +24,49 @@
 .login__img {
     cursor: pointer;
 }
+
+.login__email {
+    height: 45px;
+    width: 40vh;
+    font-size: 20px;
+    margin-top: 15%;
+    border: 1px solid;
+    border-color: rgb(71, 78, 147);
+    border-radius: 5px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.login__password,
+.login__email:focus {
+    outline: none;
+}
+
+.login__password {
+    height: 45px;
+    width: 40vh;
+    font-size: 20px;
+    border: 1px solid;
+    border-color: rgb(46, 50, 94);
+    border-radius: 5px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.login__loginBtn {
+    height: 45px;
+    width: 40vh;
+    font-size: 20px;
+    margin-top: 12%;
+    border: 1px solid;
+    border-color: rgb(21, 38, 225);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(28, 133, 226);
+}
+
+.login__signUpBtn {
+    color: rgb(96, 131, 238);
+    cursor: pointer;
+}
