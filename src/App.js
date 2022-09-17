@@ -12,11 +12,16 @@ function App() {
     setHomePage(false);
   };
 
+  const onHomeClickHandler = () => {
+    setHomePage(true);
+    setLoginPage(false);
+  }
+
   return (
     <Fragment>
       <div className='app'>
         {homePage && <Home onLoginClick={LoginClickHandler} />}
-        {loginPage && <Login />}
+        {loginPage && <Login onHomeClick={onHomeClickHandler} />}
       </div>
     </Fragment>
   );

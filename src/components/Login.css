@@ -1,4 +1,4 @@
-.cont {
+.login__container {
     height: 900px;
     justify-content: center;
     padding-top: 2%;
@@ -19,4 +19,8 @@
     height: 600px;
     border: 2px solid rgb(163, 163, 244);
     padding-top: 4%;
+}
+
+.login__img {
+    cursor: pointer;
 }

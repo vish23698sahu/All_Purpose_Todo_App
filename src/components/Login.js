@@ -2,12 +2,12 @@ import { Fragment } from "react";
 import './Login.css';
 import logo from '../media/TodoLogo.png';
 
-const Login = () => {
+const Login = (props) => {
     return (
         <Fragment>
-            <div className="cont" >
+            <div className="login__container" >
                 <div className="logo-1" >
-                    <img src={logo} width="65px" height="55px" ></img>
+                    <img src={logo} onClick={props.onHomeClick} width="40px" height="40px" className="login__img" alt='Logo of Todo App' ></img>Do.It
                 </div>
                 <div className="sec-item">
                     <div className="cont-login" >

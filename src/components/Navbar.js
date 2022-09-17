@@ -7,7 +7,7 @@ const Navbar = (props) => {
         <Fragment>
             <div className="brand-color">
                 <nav className="navbar navbar-expand-lg nav-width" >
-                    <img src={Logo} className="logo-home" onClick={props.onClickHome} width="40px" height="40px"></img>&nbsp;
+                    <img src={Logo} className="logo-home" onClick={props.onClickHome} width="40px" height="50px"></img>&nbsp;
                     <a className="navbar-brand brand-color linkss" onClick={props.onClickHome}>Do.It</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

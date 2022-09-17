@@ -35,9 +35,9 @@ const HomeContentFeature = () => {
         },
         {
             photo: <img className="img-tran" width="150px" height="150px" src={template} ></img>,
-            title: <p className="textTitle">Don't miss out on Family.</p>,
-            content: <p>Complete your Work and chores efficiently and take out the Important Family Time.</p>,
-            linkContent: <p><a>Keep your Family in Loop!</a></p>
+            title: <p className="textTitle">Crazy Templates.</p>,
+            content: <p>Go Crazy with the amount of Customization on top of Templates.</p>,
+            linkContent: <p><a>Check out Templates!</a></p>
         }
 
     ];
