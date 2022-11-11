@@ -1,13 +1,13 @@
 import { Fragment, useState } from "react";
 import './Home.css'
-import todoIcon from '../media/todoIcon.png';
+import todoIcon from '../../media/todoIcon.png';
 import Card from "./Card";
-import CardTwo from "./CardTwo";
+import CardTwo from "../Home/CardTwo";
 import HomeContentFeature from "./HomeContentFeature";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
-import Features from "./Features";
-import Template from "./Template";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
+import Features from "../Feature/Features";
+import Template from "../Template/Template";
 
 const Home = (props) => {
     const [showFeaturesPage, setShowFeaturesPage] = useState(false);

@@ -1,11 +1,11 @@
 import { Fragment } from "react";
 import './HomeContentFeature.css';
-import connnectTeam from '../media/connectTeam.png';
-import customize from '../media/customize.png';
-import Family from '../media/Family.png';
-import productivity from '../media/productivity.png';
-import template from '../media/tempate.png';
-import FeatureCard from "./FeatureCard";
+import connnectTeam from '../../media/connectTeam.png';
+import customize from '../../media/customize.png';
+import Family from '../../media/Family.png';
+import productivity from '../../media/productivity.png';
+import template from '../../media/tempate.png';
+import FeatureCard from "../Feature/FeatureCard";
 
 const HomeContentFeature = () => {
     const contentFeatures = [

@@ -1,0 +1,72 @@
+.signUp__container {
+    height: 900px;
+    justify-content: center;
+    padding-top: 2%;
+    padding-right: 50%;
+}
+
+.logo-1 {
+    padding-bottom: 5%;
+    padding-right: 20%;
+}
+
+.sec-item {
+    padding-left: 36%;
+}
+
+.cont__signUp {
+    width: 500px;
+    height: 600px;
+    border: 2px solid rgb(163, 163, 244);
+    padding-top: 4%;
+}
+
+.signUp__img {
+    cursor: pointer;
+}
+
+.signUp__email {
+    height: 45px;
+    width: 40vh;
+    font-size: 20px;
+    margin-top: 15%;
+    border: 1px solid;
+    border-color: rgb(71, 78, 147);
+    border-radius: 5px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.signUp__password,
+.signUp__email:focus {
+    outline: none;
+}
+
+.signUp__password {
+    height: 45px;
+    width: 40vh;
+    font-size: 20px;
+    border: 1px solid;
+    border-color: rgb(46, 50, 94);
+    border-radius: 5px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.signUp__loginBtn {
+    height: 45px;
+    width: 40vh;
+    font-size: 20px;
+    margin-top: 12%;
+    border: 1px solid;
+    border-color: rgb(21, 38, 225);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(28, 133, 226);
+}
+
+.signUp__signUpBtn {
+    color: rgb(96, 131, 238);
+    cursor: pointer;
+}

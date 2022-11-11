@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import './Card.css';
-import calendarIcon from '../media/todo-calendar.png';
+import calendarIcon from '../../media/todo-calendar.png';
 
 const Card = () => {
     return (

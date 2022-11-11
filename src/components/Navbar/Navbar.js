@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Logo from '../media/TodoLogo.png';
+import Logo from '../../media/TodoLogo.png';
 import './Navbar.css';
 
 const Navbar = (props) => {
@@ -19,20 +19,6 @@ const Navbar = (props) => {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link brand-color linkss" onClick={props.onClickTemplate}>Templates</a>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle brand-color linkss" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Resources
-                                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a className="dropdown-item" href="#">Integration</a>
-                                        <a className="dropdown-item" href="#">Blog</a>
-                                        <div className="dropdown-divider"></div>
-                                        <a className="dropdown-item" href="#">Getting started guide</a>
-                                    </div>
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link brand-color linkss" href="#">Pricing</a>
                             </li>
                         </ul>
                     </div>

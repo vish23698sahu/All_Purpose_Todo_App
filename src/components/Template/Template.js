@@ -1,13 +1,13 @@
 import { Fragment } from "react";
-import templateOne from '../media/temp-1.png';
-import templateTwo from '../media/temp-2.png';
-import templateThree from '../media/temp-3.png';
-import templateFour from '../media/temp-4.png';
-import templateFive from '../media/temp-5.png';
-import templateSix from '../media/temp-6.png';
-import templateSeven from '../media/temp-7.png';
-import templateEight from '../media/temp-8.png';
-import templateNine from '../media/temp-9.png';
+import templateOne from '../../media/temp-1.png';
+import templateTwo from '../../media/temp-2.png';
+import templateThree from '../../media/temp-3.png';
+import templateFour from '../../media/temp-4.png';
+import templateFive from '../../media/temp-5.png';
+import templateSix from '../../media/temp-6.png';
+import templateSeven from '../../media/temp-7.png';
+import templateEight from '../../media/temp-8.png';
+import templateNine from '../../media/temp-9.png';
 import './Template.css';
 
 

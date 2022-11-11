@@ -1,7 +1,7 @@
 import './App.css';
 import { Fragment, useState } from 'react';
-import Home from './components/Home'
-import Login from './components/Login';
+import Home from './components/Home/Home';
+import Login from './components/Login/Login';
 
 function App() {
   const [homePage, setHomePage] = useState(true);

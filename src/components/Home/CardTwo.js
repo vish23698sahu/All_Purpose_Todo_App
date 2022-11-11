@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import categoriseIcon from '../media/todo-category.png';
+import categoriseIcon from '../../media/todo-category.png';
 import './CardTwo.css';
 
 const CardTwo = () => {
