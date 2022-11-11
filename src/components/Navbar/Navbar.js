@@ -16,17 +16,14 @@ const Navbar = (props) => {
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
                                 <button className="nav-link brand-color linkss feature__btn" onClick={props.onClickFeatures}>Features</button>
-                                {/* <a href="#" className="nav-link brand-color linkss" onClick={props.onClickFeatures} >Features </a> */}
                             </li>
                             <li className="nav-item">
-                                <button className="nav-link brand-color linkss feature__btn" onClick={props.onClickFeatures}>Templates</button>
-                                {/* <a href="#" className="nav-link brand-color linkss" onClick={props.onClickTemplate}>Templates</a> */}
+                                <button className="nav-link brand-color linkss feature__btn" onClick={props.onClickTemplate}>Templates</button>
                             </li>
                         </ul>
                     </div>
                     <div className="my-2 my-lg-0 search-width">
                         <button className="nav-link brand-color linkss my-2 space-search feature__btn" onClick={props.onLogin}>Login</button>
-                        {/* <a href="#" className="nav-link brand-color linkss my-2 space-search" onClick={props.onLogin}>Login</a> */}
                         <button className="btn btn-primary my-2" type="submit">Start&nbsp;for&nbsp;Free</button>
                     </div>
                 </nav>
