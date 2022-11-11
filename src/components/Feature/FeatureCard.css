@@ -13,3 +13,13 @@
     padding-left: 20px;
     text-align: start;
 }
+
+.feature__btn{
+    background-color: #02103e;
+    border: none;
+    color: rgb(180, 179, 179);
+}
+
+.feature__btn:hover{
+    color: #ff014f;
+}

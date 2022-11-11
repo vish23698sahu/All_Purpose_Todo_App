@@ -8,7 +8,7 @@ const FeatureCard = (props) => {
                 <div className="secondItem" >
                     <div>{props.photos}</div>
                     {props.title2} {props.parag2}
-                    <a className="">{props.links2}</a>
+                    <button className="feature__btn">{props.links2}</button>
                 </div>
             </div>
         </Fragment>

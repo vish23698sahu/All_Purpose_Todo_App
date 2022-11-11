@@ -18,3 +18,17 @@
 .space-item:hover {
     cursor: pointer;
 }
+
+.footer_btn_color{
+    color: rgb(177, 203, 241);
+}
+
+.feature__btn{
+    background-color: #02103e;
+    border: none;
+    color: rgb(180, 179, 179);
+}
+
+.feature__btn:hover{
+    color: #ff014f;
+}

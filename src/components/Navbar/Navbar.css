@@ -41,3 +41,9 @@
     font-weight: 500;
     font-size: 1.5em;
 }
+
+.feature__btn{
+    background-color: #02103e;
+    border: none;
+    color: rgb(254, 253, 253);
+}
