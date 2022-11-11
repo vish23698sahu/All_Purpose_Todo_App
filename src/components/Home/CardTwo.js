@@ -7,7 +7,7 @@ const CardTwo = () => {
         <Fragment>
             <div className="container" >
                 <div className="item-two" >
-                    <img className="img-tran" src={categoriseIcon} width="600px" height="400px" ></img>
+                    <img className="img-tran" src={categoriseIcon} width="600px" height="400px" alt="todo calendar" ></img>
                 </div>
                 <div className="item-one" >
                     <p className="para-1">Draw clear line between your Personal and Professional Life.<br />Filter your Todos and keep it up tight.</p>

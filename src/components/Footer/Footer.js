@@ -7,7 +7,7 @@ const Footer = (props) => {
         <Fragment>
             <div className="container-F">
                 <div>
-                    <img src={Logo} className="logo-home" onClick={props.onHomeClick} width="50px" height="40px" ></img>&nbsp;
+                    <img src={Logo} className="logo-home" onClick={props.onHomeClick} width="50px" height="40px" alt="logo" ></img>&nbsp;
                     <a className="navbar-brand brand-color linkss" onClick={props.onHomeClick} >Do.It</a><br />
                     Join millions of people who organize their work effectively with Do.It
                 </div>
