@@ -3,7 +3,6 @@ import './SignUp.css';
 import logo from '../../media/TodoLogo.png';
 import { Link } from 'react-router-dom';
 
-
 export default function SignUp() {
     return (
         <Fragment>
@@ -15,7 +14,7 @@ export default function SignUp() {
                 </div>
                 <div className="sec-item">
                     <div className="cont__signUp" >
-                        <h2>Sign Up yourself</h2>
+                        <h2>Sign Up</h2>
 
                         <form>
                             <input className='signUp__email' type='text' placeholder='email' /><br /><br />
@@ -24,7 +23,7 @@ export default function SignUp() {
                             <button className='signUp__loginBtn' >Sign Up</button><br /><br /><br /><br />
                             <hr /><br /><br />
                             <div className='signUp__google' ></div>
-                            <div>
+                            <div className="signUp__exist">
                                 Existing User ? <Link to='/login' className='signUp__signUpBtn'>Log In</Link>
                             </div>
                         </form>

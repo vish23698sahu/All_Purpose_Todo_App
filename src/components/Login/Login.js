@@ -9,7 +9,7 @@ const Login = () => {
             <div className="login__container" >
                 <div className="logo-1" >
                     <Link to='/' className="navbar-brand brand-color linkss feature__btn">
-                        <img src={logo} width="40px" className="login__img" alt='Logo of Todo App' ></img>&nbsp; Do.It
+                        <img src={logo} width="40px" className="login__img" alt='Logo of Todo App' ></img>&nbsp; <span className="login__logo">Do.It</span>
                     </Link>
                 </div>
                 <div className="sec-item">

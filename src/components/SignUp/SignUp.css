@@ -78,4 +78,40 @@
 }
 
 
+@media screen and (max-width:786px) {
+    .signUp__container{
+        width: 90%;
+    }
+    .sec-item{
+        padding-left: 15% !important;
+        padding-top: 10%;
+    }
+    .cont__signUp{
+        width: 300px;
+        height: 540px;
+        padding-left: 5px;
+        margin-left: 0;
+    }
+    .signUp__email {
+        height: 45px;
+        width: 30vh;
+        margin-top: 14%;
+    }
+    .signUp__password {
+        height: 45px;
+        width: 30vh;
+    }
+    .signUp__loginBtn {
+        height: 45px;
+        width: 30vh;
+    }
+    .signUp__exist{
+        width: 160px;
+        padding-left: 14%;
+        margin-left: 14%;
+    }
+    .cont__signUp h2{
+        padding-top: 5%;
+    }
+}
 

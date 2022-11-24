@@ -11,6 +11,11 @@
     padding-bottom: 3%;
 }
 
+.login__logo{
+    margin-top: 45px;
+    padding-top: 45px;
+}
+
 .sec-item {
     padding-left: 36%;
 }
@@ -87,6 +92,7 @@
     }
     .cont-login{
         width: 300px;
+        height: 540px;
         padding-left: 5px;
         margin-left: 0;
     }
