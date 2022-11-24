@@ -8,8 +8,8 @@ const Footer = () => {
         <Fragment>
             <div className="container-F">
                 <div className="footer__one">
-                    <img src={Logo} className="logo-home" width="50px" height="40px" alt="logo" ></img>&nbsp;
-                    <button className="navbar-brand linkss feature__btn f_btn_align" >Do.It</button>
+                    <Link to='/'><img src={Logo} className="logo-home" width="50px" height="40px" alt="logo" ></img>&nbsp;</Link>
+                    <Link to='/'><button className="navbar-brand linkss feature__btn f_btn_align" >Do.It</button></Link>
                     Join millions of people who organize their work effectively with Do.It
                 </div><br />
                 <div>
