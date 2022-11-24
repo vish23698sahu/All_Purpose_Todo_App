@@ -47,3 +47,29 @@
     border: none;
     color: rgb(254, 253, 253);
 }
+
+@media screen and (max-width:786px) {
+    .brand-color{
+        width: 95%;
+        margin: 0;
+        padding: 0;
+    }
+    .logo-home{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .feature__btn{
+        width: 70px;
+    }
+    .search-width{
+        padding-left: 0;
+    }
+    .nav-width{
+        width: 100%;
+    }
+    .navbar__btn{
+        display: none;
+    }
+}
+
+

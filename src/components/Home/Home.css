@@ -39,3 +39,10 @@ hr {
     height: 5px;
     background: white;
 }
+
+@media screen and (max-width:786px) {
+    .img-tran{
+        width: 300px;
+    }
+}
+
