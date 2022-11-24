@@ -9,9 +9,9 @@ const Footer = () => {
             <div className="container-F">
                 <div className="footer__one">
                     <img src={Logo} className="logo-home" width="50px" height="40px" alt="logo" ></img>&nbsp;
-                    <button className="navbar-brand linkss feature__btn f_btn_align" >Do.It</button><br />
+                    <button className="navbar-brand linkss feature__btn f_btn_align" >Do.It</button>
                     Join millions of people who organize their work effectively with Do.It
-                </div>
+                </div><br />
                 <div>
                     <Link to='/features'>
                         <div className="space-item"><button className="feature__btn footer_btn_color f_btn_align">Features</button> </div>
