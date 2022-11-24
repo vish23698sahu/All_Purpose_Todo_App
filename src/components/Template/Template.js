@@ -1,7 +1,4 @@
 import { Fragment } from "react";
-import templateOne from '../../media/temp-1.png';
-import templateTwo from '../../media/temp-2.png';
-import templateThree from '../../media/temp-3.png';
 import templateFour from '../../media/temp-4.png';
 import templateFive from '../../media/temp-5.png';
 import templateSix from '../../media/temp-6.png';
@@ -10,9 +7,10 @@ import templateEight from '../../media/temp-8.png';
 import templateNine from '../../media/temp-9.png';
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
-import './Template.css';
 import TemplateCard from "./TemplateCard";
 import TemplateCardTwo from "./TemplateCardTwo";
+import TemplateData from "./TemplateData";
+import './Template.css';
 
 const Template = () => {
     return (
@@ -20,27 +18,15 @@ const Template = () => {
             <Navbar />
             <h2 className="first-line" >Explore various Templates<br /> and Work with the one that suits you!</h2>
             <div className="container-ins-1" >
-                <div className="items-align" >
-                    <TemplateCard
-                        imgSrc={templateOne}
-                        heading="Personal Project"
-                        cont="Start prioritizing your Personal Projects with this Template seemlessly"
-                    />
-                </div>
-                <div className="items-align">
-                    <TemplateCard
-                        imgSrc={templateTwo}
-                        heading="Creative Work"
-                        cont=""
-                    />
-                </div>
-                <div className="items-align" >
-                    <TemplateCard
-                        imgSrc={templateThree}
-                        heading="Education"
-                        cont=""
-                    />
-                </div>
+                {
+                    TemplateData.map((value, index) => {
+                        return (
+                            <div className="items-align" >
+                                <TemplateCard imgSrc={value.imgSrc} heading={value.heading} cont={value.cont} />
+                            </div>
+                        )
+                    })
+                }
             </div>
 
             <div className="temps-container">
@@ -50,14 +36,15 @@ const Template = () => {
                     <h4>Categories</h4>
                     <p>All Templates</p>
 
-                    <p>Sales</p>
-                    <p>Marketing</p>
-                    <p>Designing</p>
-                    <p>Development</p>
-                    <p>Goals and Plans</p>
-                    <p>Blogs and Post</p>
-                    <p>Management</p>
+                    <p className="temp__link">Sales</p>
+                    <p className="temp__link">Marketing</p>
+                    <p className="temp__link">Designing</p>
+                    <p className="temp__link">Development</p>
+                    <p className="temp__link">Goals and Plans</p>
+                    <p className="temp__link">Blogs and Post</p>
+                    <p className="temp__link">Management</p>
                 </div>
+
                 <div className="twoItem" >
                     <h3>All Templates</h3>
 

@@ -1,8 +1,8 @@
 import './App.css';
 import { Fragment } from 'react';
+import { Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
-import { Route } from 'react-router-dom';
 import SignUp from './components/SignUp/SignUp';
 import Features from './components/Feature/Features';
 import Template from './components/Template/Template';

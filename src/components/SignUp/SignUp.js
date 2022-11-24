@@ -12,7 +12,6 @@ export default function SignUp() {
                     <Link to='/'>
                         <img src={logo} width="40px" height="40px" className="signUp__img" alt='Logo of Todo App' ></img>&nbsp; Do.It
                     </Link>
-                    {/* <img src={logo} width="40px" height="40px" className="signUp__img" alt='Logo of Todo App' ></img>Do.It */}
                 </div>
                 <div className="sec-item">
                     <div className="cont__signUp" >
@@ -27,7 +26,6 @@ export default function SignUp() {
                             <div className='signUp__google' ></div>
                             <div>
                                 Existing User ? <Link to='/login' className='signUp__signUpBtn'>Log In</Link>
-                                {/* <span className='signUp__signUpBtn' onClick={props.onLoginClick} >Log In</span> */}
                             </div>
                         </form>
                     </div>

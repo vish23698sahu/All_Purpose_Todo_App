@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from '../../media/TodoLogo.png';
 import './Navbar.css';
 
-const Navbar = (props) => {
+const Navbar = () => {
     return (
         <Fragment>
             <div className="brand-color">
@@ -19,17 +19,14 @@ const Navbar = (props) => {
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
                                 <Link to='/features' className="nav-link brand-color linkss feature__btn">Features</Link>
-                                {/* <button className="nav-link brand-color linkss feature__btn" onClick={props.onClickFeatures}>Features</button> */}
                             </li>
                             <li className="nav-item">
                                 <Link to='/templates' className="nav-link brand-color linkss feature__btn">Templates</Link>
-                                {/* <button className="nav-link brand-color linkss feature__btn" onClick={props.onClickTemplate}>Templates</button> */}
                             </li>
                         </ul>
                     </div>
                     <div className="my-2 my-lg-0 search-width">
                         <Link to='/login' className="nav-link brand-color linkss my-2 space-search feature__btn">Login</Link>
-                        {/* <button className="nav-link brand-color linkss my-2 space-search feature__btn" onClick={props.onLogin}>Login</button> */}
                         <button className="btn btn-primary navbar__btn my-2" type="submit">Start&nbsp;for&nbsp;Free</button>
                     </div>
                 </nav>
