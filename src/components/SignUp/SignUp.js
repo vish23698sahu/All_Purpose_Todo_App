@@ -9,8 +9,8 @@ export default function SignUp() {
         <Fragment>
             <div className="signUp__container" >
                 <div className="logo-1" >
-                    <Link to='/'>
-                        <img src={logo} width="40px" height="40px" className="signUp__img" alt='Logo of Todo App' ></img>&nbsp; Do.It
+                    <Link to='/' className="navbar-brand brand-color linkss feature__btn">
+                        <img src={logo} width="40px" className="signUp__img" alt='Logo Todo App' ></img>&nbsp; Do.It
                     </Link>
                 </div>
                 <div className="sec-item">

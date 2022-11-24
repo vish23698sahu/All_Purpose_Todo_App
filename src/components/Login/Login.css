@@ -2,12 +2,13 @@
     height: 900px;
     justify-content: center;
     padding-top: 2%;
-    padding-right: 50%;
 }
 
 .logo-1 {
-    padding-bottom: 5%;
-    padding-right: 20%;
+    text-align: left;
+    padding-left: 10%;
+    margin: 0;
+    padding-bottom: 3%;
 }
 
 .sec-item {
@@ -71,3 +72,9 @@
     cursor: pointer;
     text-decoration: none;
 }
+
+.linkss{
+    font-size: 32px;
+}
+
+

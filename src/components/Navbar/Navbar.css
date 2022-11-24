@@ -52,6 +52,10 @@
     color: rgb(254, 253, 253);
 }
 
+a{
+    text-decoration: none;
+}
+
 @media screen and (max-width:786px) {
     .brand-color{
         width: 95%;
