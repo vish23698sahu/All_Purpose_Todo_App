@@ -18,8 +18,37 @@
     background-color: #02103e;
     border: none;
     color: rgb(180, 179, 179);
+    padding: 0;
 }
 
 .feature__btn:hover{
     color: #ff014f;
 }
+
+@media screen and (max-width:786px) {
+    .container-card{
+        padding: 25px;
+        margin-left: 0;
+    }
+    .container-card img{
+        width: 200px;
+    }
+    .textTitle{
+        width: 250px;
+    }
+    .home__p{
+        width: 280px;
+    }
+    .feature__btn{
+        min-width: 250px;
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+        color: rgb(177, 203, 241);;
+    }
+    .feature__btn p{
+        margin: 0;
+        padding: 0;
+    }
+}
+

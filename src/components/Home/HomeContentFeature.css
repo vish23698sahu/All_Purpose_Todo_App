@@ -14,3 +14,17 @@
     font-size: 1.2em;
     font-weight: 700;
 }
+
+
+@media screen and (max-width:786px) {
+    .content-s{
+        margin-top: 30px;
+    }
+    .align-this{
+        padding: 15px;
+        margin: 0 25px 0 30px;
+    }
+}
+
+
+

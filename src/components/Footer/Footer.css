@@ -32,3 +32,23 @@
 .feature__btn:hover{
     color: #ff014f;
 }
+
+@media screen and (max-width:786px) {
+    .container-F{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__one{
+        padding: 10px;
+        margin: 5px 15px 5px 15px;
+    }
+    .f_btn_align{
+        text-align: center;
+    }
+}
+
+
+
+
+

@@ -22,3 +22,15 @@
     padding-right: 60px;
     padding-left: 10px;
 }
+
+@media screen and (max-width:786px) {
+    .item-two{
+        padding: 10px;
+        margin: 10px;
+    }
+    .item-one{
+        padding: 12px;
+        margin: 12px;
+    }
+}
+
