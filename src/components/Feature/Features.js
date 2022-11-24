@@ -4,10 +4,13 @@ import featureTwo from '../../media/feature-productivity-2.png';
 import featureThree from '../../media/feature-document-3.png';
 import featureFour from '../../media/feature-4.png';
 import './Features.css';
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 const Features = () => {
     return (
         <Fragment>
+            <Navbar />
             <div className="feature-container" >
                 <p className="tag-lines">From Saturated to All Sorted!</p>
                 <p className="second-line">Explore</p>
@@ -32,6 +35,7 @@ const Features = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </Fragment>
     );
 };

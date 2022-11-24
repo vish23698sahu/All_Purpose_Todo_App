@@ -7,8 +7,12 @@
     font-weight: 500;
 }
 
+.nav-item{
+    color: white;
+}
+
 .logo-home {
-    padding-top: 15px;
+    padding-top: 1px;
 }
 
 .logo-home:hover {

@@ -1,14 +1,18 @@
 import React, { Fragment } from 'react';
 import './SignUp.css';
 import logo from '../../media/TodoLogo.png';
+import { Link } from 'react-router-dom';
 
 
-export default function SignUp(props) {
+export default function SignUp() {
     return (
         <Fragment>
             <div className="signUp__container" >
                 <div className="logo-1" >
-                    <img src={logo} width="40px" height="40px" className="signUp__img" alt='Logo of Todo App' ></img>Do.It
+                    <Link to='/'>
+                        <img src={logo} width="40px" height="40px" className="signUp__img" alt='Logo of Todo App' ></img>&nbsp; Do.It
+                    </Link>
+                    {/* <img src={logo} width="40px" height="40px" className="signUp__img" alt='Logo of Todo App' ></img>Do.It */}
                 </div>
                 <div className="sec-item">
                     <div className="cont__signUp" >
@@ -22,10 +26,10 @@ export default function SignUp(props) {
                             <hr /><br /><br />
                             <div className='signUp__google' ></div>
                             <div>
-                                Existing User ? <span className='signUp__signUpBtn' onClick={props.onLoginClick} >Log In</span>
+                                Existing User ? <Link to='/login' className='signUp__signUpBtn'>Log In</Link>
+                                {/* <span className='signUp__signUpBtn' onClick={props.onLoginClick} >Log In</span> */}
                             </div>
                         </form>
-
                     </div>
                 </div>
             </div>

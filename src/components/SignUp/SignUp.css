@@ -69,4 +69,5 @@
 .signUp__signUpBtn {
     color: rgb(96, 131, 238);
     cursor: pointer;
+    text-decoration: none;
 }
