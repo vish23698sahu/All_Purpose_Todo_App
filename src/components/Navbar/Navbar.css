@@ -1,18 +1,58 @@
-.brand-color {
-    color: rgb(245, 248, 251);
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    color: white;
 }
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+
+.home,
+.features,
+.templates,
+.login,
+.startFree{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.navbar__btn{
+    font-size: 22px;
+    padding: 4px 15px 4px 15px;
+    font-weight: 400;
+    height: 46px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-brand-st{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.logo-1 {
+    text-align: left;
+    padding-left: 2%;
+}
+
+
 
 .navbar-brand {
     font-size: 1.4em;
     font-weight: 500;
-}
-
-.nav-item{
-    color: white;
-}
-
-.logo-home {
-    padding-top: 1px;
 }
 
 .logo-home:hover {
@@ -24,26 +64,12 @@
     cursor: pointer;
 }
 
-.search-width {
-    width: 30%;
-    display: flex;
-}
-
-.space-search {
-    padding-right: 15px;
-}
-
-.collapse-color {
-    background-color: aliceblue;
-}
-
 .nav-width {
     color: rgb(245, 248, 251);
     display: inline-flex;
     justify-content: center;
-    width: 75%;
-    font-weight: 500;
-    font-size: 1.5em;
+    padding-top: 1%;
+    width: 95%;
 }
 
 .feature__btn{
@@ -52,32 +78,52 @@
     color: rgb(254, 253, 253);
 }
 
-a{
-    text-decoration: none;
+.nav-links-mobile{
+    display: none;
+}
+
+.mobile-toggle-bar{
+    display: none;
 }
 
 @media screen and (max-width:786px) {
-    .brand-color{
-        width: 95%;
-        margin: 0;
-        padding: 0;
+    .logo-1{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 1px;
     }
-    .logo-home{
-        padding-left: 0;
-        margin-left: 0;
+
+     .mobile-toggle-bar{
+        display: block;
+        position: absolute;
+        left: 85%;
+        top: 3%;
+        border-radius: 10%;
     }
-    .feature__btn{
-        width: 70px;
+
+    .nav-links{
+        display: none;
     }
-    .search-width{
-        padding-left: 0;
-    }
-    .nav-width{
-        width: 100%;
+
+    li{
+        color: #02103e;
     }
     .navbar__btn{
         display: none;
     }
-}
 
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #dceef2;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
 

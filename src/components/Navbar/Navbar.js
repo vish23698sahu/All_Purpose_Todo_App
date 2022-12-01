@@ -1,35 +1,45 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from '../../media/TodoLogo.png';
 import './Navbar.css';
 
 const Navbar = () => {
+    const [mobile, setMobile] = useState(false);
+
     return (
         <Fragment>
             <div className="brand-color">
-                <nav className="navbar navbar-expand-lg nav-width" >
-                    <Link to='/'>
-                        <img src={Logo} className="logo-home" width="40px" alt="logo"></img>&nbsp;
-                        <button className="navbar-brand brand-color linkss feature__btn" >Do.It</button>
-                    </Link>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse navbar-inverse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mr-auto">
-                            <li className="nav-item">
-                                <Link to='/features' className="nav-link brand-color linkss feature__btn">Features</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to='/templates' className="nav-link brand-color linkss feature__btn">Templates</Link>
-                            </li>
-                        </ul>
+                <nav className="navbar nav-width">
+                    <div className="logo-1" >
+                        <Link to='/' className="navbar-brand linkss feature__btn">
+                            <img src={Logo} width="40px" className="login__img" alt='Logo Todo App' ></img>&nbsp; <span className="login__logo">Do.It</span>
+                        </Link>
                     </div>
-                    <div className="my-2 my-lg-0 search-width">
-                        <Link to='/login' className="nav-link brand-color linkss my-2 space-search feature__btn">Login</Link>
-                        <button className="btn btn-primary navbar__btn my-2" type="submit">Start&nbsp;for&nbsp;Free</button>
-                    </div>
+                    <ul className={mobile ? "nav-links-mobile" : "nav-links"}
+                        onClick={() => setMobile(false)}
+                    >
+                        <Link to='/' className='home'>
+                            <li>Home</li>
+                        </Link>
+                        <Link to='/features' className='features'>
+                            <li>Features</li>
+                        </Link>
+                        <Link to='/templates' className='templates'>
+                            <li>Templates</li>
+                        </Link>
+                        <Link to='/startFree' className='startFree '>
+                            <li>Start for Free</li>
+                        </Link>
+                        <Link to='/login' className='login btn btn-primary navbar__btn'>
+                            <li>Login</li>
+                        </Link>
+                    </ul>
                 </nav>
+                <button className="mobile-toggle-bar" onClick={() => { setMobile(!mobile) }}>
+                    {
+                        mobile ? <i className="fas fa-times"></i> : <i className="fas fa-bars"></i>
+                    }
+                </button>
             </div >
         </Fragment >
     );
