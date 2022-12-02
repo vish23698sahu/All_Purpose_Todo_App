@@ -8,8 +8,13 @@
     color: rgb(31, 23, 79);
 }
 
+h1{
+    height: 105px;
+}
+
 .temp-card-line {
     font-weight: 500;
+    padding: 5px;
 }
 
 .imgs {

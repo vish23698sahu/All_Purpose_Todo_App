@@ -24,7 +24,7 @@ const Template = () => {
                         TemplateData.map((value, index) => {
                             return (
                                 <div className="items-align" >
-                                    <TemplateCard imgSrc={value.imgSrc} heading={value.heading} cont={value.cont} />
+                                    <TemplateCard key={index} imgSrc={value.imgSrc} heading={value.heading} cont={value.cont} />
                                 </div>
                             )
                         })

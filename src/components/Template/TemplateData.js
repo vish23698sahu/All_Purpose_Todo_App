@@ -6,17 +6,17 @@ const TemplateData = [
     {
         imgSrc: templateOne,
         heading: "Personal Project",
-        cont: "Start prioritizing your Personal Projects with this Template seemlessly"
+        cont: "Start prioritizing your Personal Projects with this Template seemlessly."
     },
     {
         imgSrc: templateTwo,
         heading: "Creative Work",
-        cont: ""
+        cont: "Store your Art seemlessly. Organized with the best tools."
     },
     {
         imgSrc: templateThree,
         heading: "Education",
-        cont: ""
+        cont: "Track your Pomodoros. Elevate your study hours. Put in more hours."
     }
 ];
 
