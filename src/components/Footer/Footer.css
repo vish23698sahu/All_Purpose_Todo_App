@@ -33,6 +33,13 @@
     color: #ff014f;
 }
 
+.hr {
+    width: 90%;
+    margin: 0 auto;
+    height: 5px;
+    background: white;
+}
+
 @media screen and (max-width:786px) {
     .logo-home {
         align-self: center;

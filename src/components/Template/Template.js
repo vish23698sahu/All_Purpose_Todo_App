@@ -5,8 +5,6 @@ import templateSix from '../../media/temp-6.png';
 import templateSeven from '../../media/temp-7.png';
 import templateEight from '../../media/temp-8.png';
 import templateNine from '../../media/temp-9.png';
-import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/Navbar";
 import TemplateCard from "./TemplateCard";
 import TemplateCardTwo from "./TemplateCardTwo";
 import TemplateData from "./TemplateData";
@@ -16,7 +14,6 @@ import TempCarousel from "./TempCarousel/TempCarousel";
 const Template = () => {
     return (
         <Fragment>
-            <Navbar />
             <div>
                 <h2 className="first-line" >Explore various Templates<br /> and Work with the one that suits you!</h2><br />
 
@@ -106,7 +103,6 @@ const Template = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
         </Fragment >
     );
 };

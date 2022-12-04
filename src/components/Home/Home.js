@@ -4,13 +4,10 @@ import todoIcon from '../../media/todoIcon.png';
 import Card from "./Card";
 import CardTwo from "../Home/CardTwo";
 import HomeContentFeature from "./HomeContentFeature";
-import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
     return (
         <Fragment>
-            <Navbar />
             <div>
                 <p className="tag-line">Manage your Work and Life<br /> At Once!</p>
                 <p className="second-line" >Manage your Todos on your Finger Tips</p>
@@ -23,9 +20,6 @@ const Home = () => {
                 <hr></hr>
                 <HomeContentFeature /><br /><br /><br />
             </div>
-
-            <hr></hr>
-            <Footer />
         </Fragment >
     );
 }
