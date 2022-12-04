@@ -1,4 +1,3 @@
-
 .items{
     padding-top: 2%;
     padding-left: 2%;
@@ -18,3 +17,22 @@
     font-size: 25px;
     color: white;
 }
+
+
+@media screen and (max-width:786px) {
+    .items{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-feature{
+        width: 200px;
+    }
+    .title-one{
+        font-size: 40px;
+        color: rgb(180, 203, 224);
+        max-width: 550px;
+        text-align: center;
+    }
+}
+
+

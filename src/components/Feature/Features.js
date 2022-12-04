@@ -10,7 +10,7 @@ const Features = () => {
             <div className="feature-container" >
                 <p className="tag-lines">From Saturated to All Sorted!</p>
                 <p className="second-line">Explore</p>
-                <img src={featureOne} className="img-tran" width="750px" height="450px" alt="feature" ></img>
+                <img src={featureOne} className="img-tran img-features" width="750px" alt="feature" ></img>
 
                 <div className="container-new" >
                     {
@@ -19,6 +19,8 @@ const Features = () => {
                         })
                     }
                 </div>
+                <br />
+                <br />
             </div>
         </Fragment>
     );
