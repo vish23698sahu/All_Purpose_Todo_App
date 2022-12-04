@@ -19,19 +19,19 @@ const Features = () => {
                 <div className="container-new" >
                     <div className="items-1" >
                         <p className="one" >Productivity<br /><span className="item1-line">Analyze your Productivity daily,<br /> weekly and monthly.</span></p>
-                        <img src={featureTwo} className="img-tran" width="350px" height="450px" alt="feature" ></img>
+                        <img src={featureTwo} className="img-tran" width="350px" alt="feature" ></img>
                     </div>
                     <div className="items-2" >
                         <p className="one" >Collate your Team Documents<br />
                             <span className="item1-line" >Have a specified place<br /> for all your Team documents.</span>
                         </p>
-                        <img src={featureThree} className="img-tran" width="600px" height="400px" alt="feature" ></img>
+                        <img src={featureThree} className="img-tran" width="350px" alt="feature" ></img>
                     </div>
                     <div className="items-3" >
                         <p className="one" >Delegate your Tasks with<br /> Team or co-workers<br />
                             <span className="item1-line" >Take out more time<br /> for work that really needs your time.</span>
                         </p>
-                        <img src={featureFour} className="img-tran" width="600px" height="400px" alt="feature"></img>
+                        <img src={featureFour} className="img-tran" width="350px" alt="feature"></img>
                     </div>
                 </div>
             </div>

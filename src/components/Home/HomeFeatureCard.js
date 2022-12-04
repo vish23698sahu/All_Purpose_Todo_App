@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import './FeatureCard.css';
+import './HomeFeatureCard.css';
 
-const FeatureCard = (props) => {
+const HomeFeatureCard = (props) => {
     return (
         <Fragment>
             <div className="container-card">
@@ -15,4 +15,4 @@ const FeatureCard = (props) => {
     );
 };
 
-export default FeatureCard;
+export default HomeFeatureCard;
