@@ -12,7 +12,7 @@ const Navbar = () => {
                 <nav className="navbar nav-width">
                     <div className="logo-1" >
                         <Link to='/' className="navbar-brand linkss feature__btn">
-                            <img src={Logo} width="40px" className="login__img" alt='Logo Todo App' ></img>&nbsp; <span className="login__logo">Do.It</span>
+                            <img src={Logo} width="40px" className="login__img" alt='Logo Todo App' ></img>&nbsp; <span className="home__logo">Do.It</span>
                         </Link>
                     </div>
                     <ul className={mobile ? "nav-links-mobile" : "nav-links"}
