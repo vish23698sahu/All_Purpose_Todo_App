@@ -17,6 +17,18 @@ h1{
     padding: 5px;
 }
 
+.rounded-circle{
+    width: 70px;
+}
+
 .imgs {
     padding-top: 10px;
 }
+
+@media screen and (max-width:786px) {
+    .carousel .slide img{
+        width: 120px !important;
+    }
+}
+
+

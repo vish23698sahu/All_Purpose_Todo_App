@@ -62,3 +62,35 @@
     cursor: pointer;
 }
 
+.carousel-mobile{
+    display: none;
+}
+
+
+@media screen and (max-width:786px) {
+    .carousel-mobile{
+        display: block;
+    }
+    .first-line{
+        padding-left: 7%;
+        max-width: 350px
+    }
+    .container-ins-1{
+        display: none;
+    }
+    .temps-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .temp-cont-inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .search-line {
+        padding-top: 5%;
+    }
+    .twoItem{
+        padding-top: 7%;
+    }
+}
+

@@ -11,14 +11,19 @@ import TemplateCard from "./TemplateCard";
 import TemplateCardTwo from "./TemplateCardTwo";
 import TemplateData from "./TemplateData";
 import './Template.css';
+import TempCarousel from "./TempCarousel/TempCarousel";
 
 const Template = () => {
     return (
         <Fragment>
             <Navbar />
-
             <div>
-                <h2 className="first-line" >Explore various Templates<br /> and Work with the one that suits you!</h2>
+                <h2 className="first-line" >Explore various Templates<br /> and Work with the one that suits you!</h2><br />
+
+                <div className="carousel-mobile">
+                    <TempCarousel />
+                </div>
+
                 <div className="container-ins-1" >
                     {
                         TemplateData.map((value, index) => {
@@ -82,7 +87,6 @@ const Template = () => {
                                 />
                             </div>
                         </div>
-
                         <div className="temp-cont-inner">
                             <div className="items-align-one" >
                                 <TemplateCardTwo

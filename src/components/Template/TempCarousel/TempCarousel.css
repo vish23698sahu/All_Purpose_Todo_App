@@ -1,0 +1,21 @@
+.car-card{
+    padding: 5%;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel{
+    text-align: center;
+}
+
+.carousel .thumb{
+    width: 10%;
+    height: 80px;
+}
+
+.carousel .slider-wrapper{
+    width: 55%;
+    text-align: center;
+}
+
