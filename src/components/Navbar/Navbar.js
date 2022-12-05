@@ -27,7 +27,7 @@ const Navbar = () => {
                         <Link to='/templates' className='templates'>
                             <li>Templates</li>
                         </Link>
-                        <Link to='/startFree' className='startFree '>
+                        <Link to='/' className='startFree '>
                             <li>Start for Free</li>
                         </Link>
                         <Link to='/login' className='login btn btn-primary navbar__btn'>

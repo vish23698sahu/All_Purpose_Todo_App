@@ -1,17 +1,11 @@
 import { Fragment } from "react";
 import './Login.css';
-import logo from '../../media/TodoLogo.png';
 import { Link } from "react-router-dom";
 
 const Login = () => {
     return (
         <Fragment>
             <div className="login__container" >
-                <div className="logo-1" >
-                    <Link to='/' className="navbar-brand brand-color linkss feature__btn">
-                        <img src={logo} width="40px" className="login__img" alt='Logo of Todo App' ></img>&nbsp; <span className="login__logo">Do.It</span>
-                    </Link>
-                </div>
                 <div className="sec-item">
                     <div className="cont-login" >
                         <h2>Login</h2>
