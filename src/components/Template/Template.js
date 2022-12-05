@@ -92,7 +92,7 @@ const Template = () => {
                                     cont="Highlight your add campaigns and let your ideas flow"
                                 />
                             </div>
-                            <div className="items-align-last" >
+                            <div className="items-align-one" >
                                 <TemplateCardTwo
                                     imgSrc={templateNine}
                                     heading="Blog, Posts"

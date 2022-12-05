@@ -44,10 +44,6 @@
     padding-right: 5%;
 }
 
-.items-align-last {
-    padding-bottom: 10%;
-}
-
 .oneItem {
     padding-right: 2%;
 }
@@ -55,7 +51,6 @@
 .twoItem {
     padding-left: 2%;
 }
-
 
 .temp__link:hover{
     color: rgb(160, 193, 224);
@@ -91,6 +86,7 @@
     }
     .twoItem{
         padding-top: 7%;
+        margin-bottom: 7%;
     }
 }
 

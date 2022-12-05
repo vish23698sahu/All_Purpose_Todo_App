@@ -6,7 +6,7 @@ const TemplateCardTwo = (props) => {
         <Fragment>
             <div className="temp-card-2">
                 <div className="cardItemOne" >
-                    <img src={props.imgSrc} className="rounded-circle imgs" width='110px' height='110px' alt="template" ></img>
+                    <img src={props.imgSrc} className="rounded-circle imgs" height="90px" alt="template" ></img>
                 </div>
                 <div className="cardItemTwo">
                     <h1>{props.heading}</h1>

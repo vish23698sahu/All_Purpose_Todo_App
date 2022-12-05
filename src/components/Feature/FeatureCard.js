@@ -6,7 +6,12 @@ const FeatureCard = (props) => {
         <Fragment>
             <br />
             <div className="items" >
-                <div className='text-feature'><p className="title-one" >{props.title}<br /><span className="text-line">{props.text}</span></p></div>
+                <div className='text-feature'>
+                    <p className="title-one" >
+                        {props.title}<br />
+                        <p className="text-line">{props.text}</p>
+                    </p>
+                </div>
                 <img src={props.image} className="img-tran img-feature" width="350px" alt="feature" ></img>
             </div>
             <br />
