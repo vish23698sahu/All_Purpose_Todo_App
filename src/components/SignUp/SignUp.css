@@ -1,5 +1,5 @@
 .signUp__container {
-    height: 700px;
+    height: 630px;
     justify-content: center;
     padding-top: 3%;
 }
@@ -8,7 +8,7 @@
     text-align: left;
     padding-left: 10%;
     margin: 0;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
 .sec-item {
@@ -16,8 +16,8 @@
 }
 
 .cont__signUp {
-    width: 480px;
-    height: 550px;
+    width: 470px;
+    height: 510px;
     border: 2px solid rgb(163, 163, 244);
     padding-top: 4%;
 }

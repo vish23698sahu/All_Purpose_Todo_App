@@ -14,7 +14,7 @@ export default function SignUp() {
                             <input className='signUp__email' type='text' placeholder='email' /><br /><br />
                             <input className='signUp__password' type='password' placeholder='password' /><br />
 
-                            <button className='signUp__loginBtn' >Sign Up</button><br /><br /><br /><br />
+                            <button className='signUp__loginBtn' >Sign Up</button><br /><br /><br />
                             <hr /><br /><br />
                             <div className='signUp__google' ></div>
                             <div className="signUp__exist">

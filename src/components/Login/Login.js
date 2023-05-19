@@ -14,7 +14,7 @@ const Login = () => {
                             <input className='login__email' type='text' placeholder='email' /><br /><br />
                             <input className='login__password' type='password' placeholder='password' /><br />
 
-                            <button className='login__loginBtn' >Log In</button><br /><br /><br /><br />
+                            <button className='login__loginBtn' >Log In</button><br /><br /><br />
                             <hr /><br /><br />
                             <div className='login__google' ></div>
                             <div className="login__dont">
